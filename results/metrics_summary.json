@@ -1,0 +1,12 @@
+{
+  "baseline_clean": {
+    "blur_score_laplacian": 819.8930563136337,
+    "detector_confidence": 0.9511206249999999,
+    "shannon_entropy": 5.882931232452393,
+    "saturation_ratio": 0.016371527777777777,
+    "camera_fusion_weight": 0.6787170138888888
+  },
+  "mean_latency_ms": 47.586682931202034,
+  "max_latency_ms": 83.54169997619465,
+  "throughput_fps": 21.014282534585146
+}

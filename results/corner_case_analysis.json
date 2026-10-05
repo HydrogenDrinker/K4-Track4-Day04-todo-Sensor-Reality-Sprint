@@ -1,0 +1,16 @@
+{
+  "low_texture_asphalt": {
+    "description": "Clean camera lens viewing uniform asphalt (false positive blur alarm).",
+    "blur_score_laplacian": 0.059720293209876485,
+    "shannon_entropy": 4.331084251403809,
+    "status": "WARNING_BLUR",
+    "failure_mode": "False Alarm (Triggered WARNING_BLUR on clean lens due to lack of edge gradients)."
+  },
+  "noisy_blur_masking": {
+    "description": "Severe optical blur with high ISO sensor noise (false negative failure).",
+    "blur_score_laplacian": 8768.124701410874,
+    "shannon_entropy": 7.538423538208008,
+    "status": "HEALTHY",
+    "failure_mode": "Missed Failure (Noise grain creates false high Laplacian variance despite unreadable scene)."
+  }
+}
